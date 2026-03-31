@@ -1,14 +1,14 @@
 # RAG Document Workflow
 
 ## Overview
-AI workflow that ingests document content, retrieves relevant context, and generates grounded responses.
+This project simulates a retrieval-augmented generation workflow by ingesting text, splitting it into chunks, retrieving relevant context, and generating grounded responses in a structured format.
 
 ## Features
-- Document ingestion
-- Text chunking
-- Context retrieval
-- Response generation
-- Structured output handling
+- Document ingestion from text file
+- Chunking into smaller sections
+- Keyword-based retrieval
+- Grounded response generation
+- Structured JSON output
 
 ## Tech Stack
 Python, JSON, RAG concepts
@@ -17,14 +17,17 @@ Python, JSON, RAG concepts
 Document Input → Chunking → Retrieval → Response Generation
 
 ## What I implemented
-- Designed a basic document ingestion flow
-- Added retrieval logic for relevant context selection
-- Simulated grounded response generation
-- Structured output in a consistent format
+- Read document content from file
+- Split long content into smaller searchable chunks
+- Retrieved the most relevant chunk for a query
+- Returned a structured response with query, context, and answer
 
 ## How to run
-1. Clone repository  
+1. Clone the repository
 2. Run `python app.py`
 
+## Sample Output
+See `output_example.json`
+
 ## Status
-Initial RAG workflow prototype completed. Further improvements in progress.
+Improved RAG prototype with document ingestion and structured output
