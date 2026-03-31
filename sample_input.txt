@@ -1,0 +1,1 @@
+RAG systems use retrieval to find relevant information before generating a response. Chunking helps organize long documents into smaller searchable parts.
