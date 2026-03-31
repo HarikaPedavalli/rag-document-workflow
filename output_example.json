@@ -1,7 +1,5 @@
 {
-  "query": "RAG",
-  "retrieved_context": [
-    "RAG combines retrieval with generation for grounded responses."
-  ],
-  "response": "Generated answer using retrieved context: RAG combines retrieval with generation for grounded responses."
+  "query": "RAG retrieval",
+  "retrieved_context": "RAG systems improve response quality by retrieving relevant information before generation. Chunking helps divide long documents into smaller searchable units.",
+  "response": "Based on the retrieved context, the answer is: RAG systems improve response quality by retrieving relevant information before generation. Chunking helps divide long documents into smaller searchable units."
 }
