@@ -1,0 +1,7 @@
+{
+  "query": "RAG",
+  "retrieved_context": [
+    "RAG combines retrieval with generation for grounded responses."
+  ],
+  "response": "Generated answer using retrieved context: RAG combines retrieval with generation for grounded responses."
+}
